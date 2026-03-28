@@ -133,6 +133,20 @@ for (POP in names(POP_list)) {
    # Compute confidence intervals for AUROC
    ci_auc_full <- ci.auc(roc_full)
    ci_auc_pgs <- ci.auc(roc_pgs)
+   
+   # One-sided DeLong test
+   delong.roselli <- "-"
+   delong.allmeta <- "-"
+   
+   if (PRS == "Roselli et al.") { 
+       roselli_roc_prs <- roc_prs
+   } else if (PRS == "ALLmeta") { 
+       # Compare ALLmeta against Roselli
+       delong.roselli <- pROC::roc.test(roc_prs, roselli_roc_prs, method = "delong", alternative = "greater")$p.value
+   } else if (startsWith(PRS, "Mult-t-")) { 
+       # Compare Mult-t against Roselli
+       delong.roselli <- pROC::roc.test(roc_prs, roselli_roc_prs, method = "delong", alternative = "greater")$p.value
+   }
   })
 
   ## Compute AUPRC

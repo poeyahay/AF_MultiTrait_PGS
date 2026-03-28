@@ -20,6 +20,7 @@ sum_table <- function(n, PGS, population) {
   summary_table[n, "AUPRC.pgs"] <- round(auprc_pgs, digits = 3)
   summary_table[n, "ngk_R2_delta_o_resid"] <- round(R2_ngk_delta_over_residualR2, digits = 3)
   summary_table[n, "liab_R2_delta_o_resid"] <- round(R2_liab_delta_over_residualR2, digits = 3)
+  summary_table[n, "DeLong"] <- if (is.numeric(delong.roselli)) { format(delong.roselli, scientific = TRUE, digits = 3) } else {delong.roselli}
   
   return(summary_table)
 }
