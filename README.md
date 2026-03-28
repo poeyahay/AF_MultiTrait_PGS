@@ -1,4 +1,4 @@
-## Overview <img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/3c8eb205-d0e3-4871-8f9d-ddd7a38725ae" />
+## Overview   <img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/3c8eb205-d0e3-4871-8f9d-ddd7a38725ae" />
 
 
 This repository provides a full walkthrough of how we generated our multi-trait polygenic scores (PGSs) related to the manuscript:
