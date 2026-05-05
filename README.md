@@ -3,9 +3,9 @@
 <img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/3c8eb205-d0e3-4871-8f9d-ddd7a38725ae" />
 
 
-This repository provides a full walkthrough of how we generated our multi-trait polygenic scores (PGSs) related to the manuscript:
+This repository provides a full walkthrough of how we generated our multi-trait polygenic scores (PGSs) related to the article:
 
-*[Multi-trait polygenic risk scores improve genomic prediction of atrial fibrillation across diverse ancestries](https://pmc.ncbi.nlm.nih.gov/articles/PMC12622184/)*
+*[Multi-trait polygenic risk scores improve genomic prediction of atrial fibrillation across diverse ancestries](https://www.nature.com/articles/s41467-026-72708-x)*
 
 ## Table of contents
 
@@ -224,4 +224,4 @@ RStudio v4.5.0
 
 **If you use these scripts, please cite the following:**
 
-*Haydarlou, P., et al.* “Multi-trait polygenic risk scores improve genomic prediction of atrial fibrillation across diverse ancestries.” (under review). Preprint DOI: [10.21203/rs.3.rs-7713077/v1](https://doi.org/10.21203/rs.3.rs-7713077/v1)
+*Haydarlou, P., et al.* “Multi-trait polygenic risk scores improve genomic prediction of atrial fibrillation across diverse ancestries.” (Nature Communications, May 2026). DOI: [10.1038/s41467-026-72708-x](https://doi.org/10.1038/s41467-026-72708-x)
