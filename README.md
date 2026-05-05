@@ -224,4 +224,4 @@ RStudio v4.5.0
 
 **If you use these scripts, please cite the following:**
 
-*Haydarlou, P., et al.* “Multi-trait polygenic risk scores improve genomic prediction of atrial fibrillation across diverse ancestries.” (Nature Communications, May 2026). DOI: [10.1038/s41467-026-72708-x](https://doi.org/10.1038/s41467-026-72708-x)
+*Haydarlou, P., et al.* “Multi-trait polygenic risk scores improve genomic prediction of atrial fibrillation across diverse ancestries.” Nat Commun (2026). DOI: [10.1038/s41467-026-72708-x](https://doi.org/10.1038/s41467-026-72708-x)
