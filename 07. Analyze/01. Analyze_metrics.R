@@ -136,7 +136,6 @@ for (POP in names(POP_list)) {
    
    # One-sided DeLong test
    delong.roselli <- "-"
-   delong.allmeta <- "-"
    
    if (PRS == "Roselli et al.") { 
        roselli_roc_prs <- roc_prs
